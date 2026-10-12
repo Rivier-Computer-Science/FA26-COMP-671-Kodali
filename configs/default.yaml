@@ -1,0 +1,14 @@
+seed: 42
+data_root: data/raw          # contains <class_name>/*.jpg after unzipping Kaggle data
+splits_csv: data/splits.csv
+split_fractions: {train: 0.70, val: 0.15, test: 0.15}
+img_size: 128
+mlp_img_size: 32
+batch_size: 64
+epochs: 30
+lr: 0.001
+weight_decay: 0.0001
+patience: 5          # early stopping on val macro-F1
+num_workers: 2
+base_width: 32
+blocks_per_stage: 2  # 3 stages -> equal depth for CNN and ResNet

@@ -1,0 +1,7 @@
+
+# project
+data/raw/
+data/*.csv
+*.pt
+results/*.png
+__pycache__/
