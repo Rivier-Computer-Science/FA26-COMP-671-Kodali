@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FA26-COMP-671-Kodali
 =======
 # Plant Disease Classification from Leaf Images
@@ -41,9 +40,6 @@ scripts/run_all.sh     full experiment      results/ models/  outputs (weights)
 ```
 ## Key hyperparameters
 See `configs/default.yaml`: AdamW lr 1e-3, wd 1e-4, cosine schedule, batch 64, 30 epochs, patience 5, 128×128 input (32×32 for MLP).
-
-## Results
-_To be filled in after running experiments._
 
 ## Ethics & limitations
 Not a substitute for expert diagnosis. PlantVillage images are lab-controlled (uniform background); expect a domain gap on field photos. See report.
