@@ -1,5 +1,4 @@
 # FA26-COMP-671-Kodali
-=======
 # Plant Disease Classification from Leaf Images
 **COMP 671 Deep Learning Final Project** — comparing non-deep baselines, an MLP, a plain CNN, and an equal-depth ResNet on PlantVillage.
 
